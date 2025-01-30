@@ -3,7 +3,7 @@ Documentation: Creating a Highly Available Website Using Azure VMSS
 Develop a basic website with the desired features. Use HTML, CSS, and JavaScript for front-end design, and optional back-end functionality (e.g., Node.js or Python). Ensure the website files are ready for deployment.
 2. Upload Website to GitHub
 Upload the website files to a GitHub repository. For example, you can clone the repository using:
-git clone https://github.com/harisaideepu-cloud/oxer.git
+git clone https://github.com/1124Vaishu/NeoGym.git NeoGym
 This ensures easy access to the website files for deployment.
 3. Create VM with Custom Script
 In the Azure Portal:
@@ -29,10 +29,10 @@ sudo apt install stress -y
 cd /tmp
 
 # Clone the repository from GitHub
-git clone https://github.com/harisaideepu-cloud/test1.git test1
+git clone https://github.com/1124Vaishu/NeoGym.git NeoGym
 
 # Copy the contents to the Nginx web directory
-sudo cp -r /tmp/test1/* /var/www/html/
+sudo cp -r /tmp/NeoGym/* /var/www/html/
 
 # Change ownership to www-data user and group (for Nginx)
 sudo chown -R www-data:www-data /var/www/html/
